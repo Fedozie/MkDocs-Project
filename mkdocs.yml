@@ -1,5 +1,7 @@
-site_name: My Docs
+site_name: MKDocs for Beginners
 nav: 
-  - Home: 'index.md'
-  - About: 'about.md'
+  - Home: 'index.html'
+  - 'Getting Started': 'gettingStarted.md'
+  - 'User Guide': 'userGuide.md'
 theme: cinder
+
