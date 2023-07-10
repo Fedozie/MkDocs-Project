@@ -1,4 +1,5 @@
 site_name: MKDocs for Beginners
+repo_url: https://github.com/Fedozie/MkDocs-Project.git/
 nav: 
   - Home: 'index.html'
   - 'Getting Started': 'gettingStarted.md'
