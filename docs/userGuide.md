@@ -48,7 +48,7 @@ Source files inside nested directories will cause pages to be generated with nes
 ## Configuring Navigation and Pages
 The `mkdocs.yml` file in an MkDocs project is a configuration file that defines various settings and options for your documentation site. The file allows you to specify settings related to the structure, appearance, behavior, and deployment of your documentation. It is written in YAML (YAML Ain't Markup Language) format, which is a human-readable data serialization language.
 
-Some key aspects you can configure in the mkdocs.yml file include:
+Some key aspects you can configure in the `mkdocs.yml` file include:
 
 **Site Metadata**
 
@@ -56,8 +56,8 @@ You can define the title, description, author, and other metadata related to you
 Some of the settings used to define the metadata of the MK Docs project are as follows;
 ```
 site_name: MKDocs for Beginners
-site_url: "https://example.com/foo/"
-repo_url: "https://github.com/Fedozie/MkDocs-Project.git/"
+site_url: https://example.com/foo/
+repo_url: https://github.com/Fedozie/MkDocs-Project.git/
 repo_name: GitHub
 ```
 A few other settings are `site_description`, `site_author` and `remote_name`. All of these settings are optional except that of `site_name` which is required.
@@ -97,5 +97,19 @@ MkDocs supports various plugins that extend its functionality and customization 
 You can add custom settings and configurations, such as specifying the base URL, enabling search functionality, setting up syntax highlighting, or configuring advanced options like custom CSS or JavaScript.
 
 ## Writing the Docs
+
+
 ## Customizing Theme
+In MkDocs, a theme refers to the visual appearance and styling of your documentation website. It determines how your content is presented to the users, including elements like fonts, colors, layout, navigation menus, and other design aspects. Themes play a crucial role in creating a cohesive and professional look for your documentation. There are two built-in themes on the MkDocs project; 
+
+1. The "MkDocs" theme, also known as the "Classic" theme, is the default theme. It is a simple and straightforward theme designed to provide a clean and minimalistic look for your documentation.
+2. The Read the Docs theme aims to replicate the appearance of documentation hosted on the Read the Docs platform. It has a simple and minimalistic design, focusing on readability and ease of navigation.
+
+To choose between any of these two, you simply do this by changing the `theme` setting in `mkdocs.yml` file by removing the `mkdocs` and adding `readthedocs`
+
+```
+theme: mkdocs
+```
+
+
 ## Deploying the Docs

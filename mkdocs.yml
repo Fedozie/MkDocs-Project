@@ -4,5 +4,19 @@ nav:
   - Home: 'index.html'
   - 'Getting Started': 'gettingStarted.md'
   - 'User Guide': 'userGuide.md'
-theme: cinder
+theme:
+  name: material
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    scheme: slate
+    primary: teal
+    accent: cyan
+  font:
+    text: "Roboto"
+  code:
+    font: "Roboto Mono"
+
+
 
