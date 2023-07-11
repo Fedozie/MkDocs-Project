@@ -1,4 +1,4 @@
-# Getting Started with MkDocs
+# **Getting Started with MkDocs**
 An introductory tutorial to MkDocs.
 
 ## Introduction
